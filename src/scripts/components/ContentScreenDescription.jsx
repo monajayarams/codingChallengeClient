@@ -64,7 +64,7 @@ export class ContentScreenFooter extends React.Component{
                 "message" : message
             };
     
-            let response = await fetch('http://localhost:3000/sendMessage', {
+            let response = await fetch('https://mj-coding-challenge-server.herokuapp.com/sendMessage', {
                 method: 'post',
                 body: JSON.stringify(payload)
             });

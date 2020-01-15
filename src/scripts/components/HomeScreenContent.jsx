@@ -21,7 +21,7 @@ export class HomeScreenContent extends React.Component{
     }
     
     async fetchJSONData(){
-        const response = await fetch('http://localhost:3000/getCodeChallengeListItems');
+        const response = await fetch('https://mj-coding-challenge-server.herokuapp.com/getCodeChallengeListItems');
         let resp;
         if (response.status === 200) {
             resp =  await response.json();;
