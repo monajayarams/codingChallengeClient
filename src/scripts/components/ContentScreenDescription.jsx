@@ -10,7 +10,7 @@ export class ContentScreenDescription extends React.Component{
     render(){
         let description = this.props.description ? this.props.description : [];
         return(
-            <div>
+            <div className="contentContainer">
                 <div className="contentScreenDesc">
                 {
                     description.map((item,i) => (
@@ -81,13 +81,13 @@ export class ContentScreenFooter extends React.Component{
     render(){
         let errorClass = this.state.messageStatus === "failure" ? "error" : "";
         return(
-            <div className="footer">
-                <div className = {`messageStatus ${errorClass}`}>{this.state.messageStatusData.responseMessage}</div>
-                <div className="messageDiv">
-                    <input id="textBox" className={`msgBox ${this.state.textErrClass}`} type="text" placeholder={this.state.textErrMsg} maxLength="150"/>
-                    <button className="submitBtn" type="submit" onClick={this.hanldeClick}>Submit</button>
+                <div className="footer">
+                    <div className = {`messageStatus ${errorClass}`}>{this.state.messageStatusData.responseMessage}</div>
+                    <div className="messageDiv">
+                        <input id="textBox" className={`msgBox ${this.state.textErrClass}`} type="text" placeholder={this.state.textErrMsg} maxLength="150"/>
+                        <button className="submitBtn" type="submit" onClick={this.hanldeClick}>Submit</button>
+                    </div>
                 </div>
-            </div>
         );
     }
 };

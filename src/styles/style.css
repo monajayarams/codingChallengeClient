@@ -39,28 +39,28 @@ html{
     height:100vh;
     clear: both;
 }
-.column {
-    height:100%;
-}
 .first {
     width:62px;
     float: left;
     background-color: black;
+    height: 100vh;
+    overflow-y: auto;
 }
 .second {
     width:30vw;
     float: left;
     border-right:darkgrey .5px solid;
     padding-top:0 !important;
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 100vh;
 }
 .third {
-    width: 40vw;
+    width: 63vw;
     padding:20px;
-    height: 90%;
+    height: 90vh;
     float:left;
-    position: relative;
+    padding-bottom: unset !important;
+    overflow-y: auto;
 }
 .listContentDiv {
     border-bottom:darkgrey .5px solid;
@@ -102,9 +102,9 @@ html{
 }
 .footer {
     position: absolute;
-    bottom: 30px;
-    height: 50px;
-    width: 95%;
+    bottom: 0;
+    width: 100%;
+    padding-bottom:20px;
 }
 .msgBox{
     width:100%;
@@ -164,22 +164,11 @@ html{
 .error {
     color:red;
 }
+.contentContainer {
+    min-height: 90vh;
+    position: relative;
+}
 
-@media only screen and (max-width: 3000px) {
-    .third{
-        width:65vw;
-    }
-}
-@media only screen and (max-width: 2050px) {
-    .third{
-        width:64vw;
-    }
-}
-@media only screen and (max-width: 1708px) {
-    .third{
-        width:63vw;
-    }
-}
 @media only screen and (max-width: 1464px) {
     .third{
         width:62vw;
@@ -202,8 +191,99 @@ html{
 }
 @media only screen and (max-width: 931px) {
     .third{
+        width:58vw;
+    }
+}
+@media only screen and (max-width: 853px) {
+    .third{
+        width:57vw;
+    }
+}
+@media only screen and (max-width: 788px) {
+    .third{
+        width:56vw;
+    }
+}
+@media only screen and (max-width: 732px) {
+    .third{
+        width:55vw;
+    }
+}
+@media only screen and (max-width: 732px) {
+    .third{
+        width:54vw;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .contentContainer{
+        padding-bottom:50px;
+    }
+    .third{
+        width:53vw;
+    }
+}
+@media only screen and (max-width: 602px) {
+    .third{
+        width:52vw;
+    }
+}
+@media only screen and (max-width: 568px) {
+    .third{
+        width:51vw;
+    }
+}
+@media only screen and (max-width: 539px) {
+    .third{
         width:50vw;
     }
 }
-
- 
+@media only screen and (max-width: 512px) {
+    .third{
+        width:49vw;
+    }
+}
+@media only screen and (max-width: 488px) {
+    .third{
+        width:48vw;
+    }
+}
+@media only screen and (max-width: 465px) {
+    .third{
+        width:47vw;
+    }
+}
+@media only screen and (max-width: 444px) {
+    .third{
+        width:46vw;
+    }
+}
+@media only screen and (max-width: 426px) {
+    .third{
+        width:45vw;
+    }
+}
+@media only screen and (max-width: 409px) {
+    .third{
+        width:44vw;
+    }
+}
+@media only screen and (max-width: 393px) {
+    .third{
+        width:43vw;
+    }
+}
+@media only screen and (max-width: 379px) {
+    .third{
+        width:42vw;
+    }
+}
+@media only screen and (max-width: 365px) {
+    .third{
+        width:40vw;
+    }
+}
+@media only screen and (max-width: 341px) {
+    .third{
+        width:37vw;
+    }
+}

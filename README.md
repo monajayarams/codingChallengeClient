@@ -18,6 +18,7 @@ CodingChallengeClient is a react/webpack app which has a simple web responsive w
 To run in local, 
 
 ```
+Start the codingChallengeAPI Server
 npm install
 npm start
 ```
