@@ -164,45 +164,46 @@ html{
 .error {
     color:red;
 }
-    @media only screen and (max-width: 3000px) {
-        .third{
-            width:65vw;
-        }
+
+@media only screen and (max-width: 3000px) {
+    .third{
+        width:65vw;
     }
-    @media only screen and (max-width: 2050px) {
-        .third{
-            width:64vw;
-        }
+}
+@media only screen and (max-width: 2050px) {
+    .third{
+        width:64vw;
     }
-    @media only screen and (max-width: 1708px) {
-        .third{
-            width:63vw;
-        }
+}
+@media only screen and (max-width: 1708px) {
+    .third{
+        width:63vw;
     }
-    @media only screen and (max-width: 1464px) {
-        .third{
-            width:62vw;
-        }
+}
+@media only screen and (max-width: 1464px) {
+    .third{
+        width:62vw;
     }
-    @media only screen and (max-width: 1280px) {
-        .third{
-            width:61vw;
-        }
+}
+@media only screen and (max-width: 1280px) {
+    .third{
+        width:61vw;
     }
-    @media only screen and (max-width: 1180px) {
-        .third{
-            width:60vw;
-        }
+}
+@media only screen and (max-width: 1180px) {
+    .third{
+        width:60vw;
     }
-    @media only screen and (max-width: 1024px) {
-        .third{
-            width:59vw;
-        }
+}
+@media only screen and (max-width: 1024px) {
+    .third{
+        width:59vw;
     }
-    @media only screen and (max-width: 931px) {
-        .third{
-            width:50vw;
-        }
+}
+@media only screen and (max-width: 931px) {
+    .third{
+        width:50vw;
     }
+}
 
  
