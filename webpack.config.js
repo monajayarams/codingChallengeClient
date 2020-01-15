@@ -6,6 +6,11 @@ var config = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js'
     },
+    devServer: {
+        compress: true,
+        disableHostCheck: true,  
+        public: 'https://mj-coding-challenge-client.herokuapp.com'
+    },
     module: {
         loaders: [
             {
