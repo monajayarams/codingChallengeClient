@@ -83,8 +83,10 @@ export class ContentScreenFooter extends React.Component{
         return(
             <div className="footer">
                 <div className = {`messageStatus ${errorClass}`}>{this.state.messageStatusData.responseMessage}</div>
-                <input id="textBox" className={`msgBox ${this.state.textErrClass}`} type="text" placeholder={this.state.textErrMsg} maxLength="150"/>
-                <button className="submitBtn" type="submit" onClick={this.hanldeClick}>Submit</button>
+                <div className="messageDiv">
+                    <input id="textBox" className={`msgBox ${this.state.textErrClass}`} type="text" placeholder={this.state.textErrMsg} maxLength="150"/>
+                    <button className="submitBtn" type="submit" onClick={this.hanldeClick}>Submit</button>
+                </div>
             </div>
         );
     }

@@ -104,14 +104,13 @@ html{
     position: absolute;
     bottom: 30px;
     height: 50px;
-    width: 100%;
+    width: 95%;
 }
 .msgBox{
-    width:95%;
+    width:100%;
     border:darkgrey .5px solid;
     height:25px;
     border-radius: 5px;
-    position: absolute;
 }
 .mandate{
     border : red .5px solid;
@@ -119,8 +118,9 @@ html{
 .submitBtn {
     height:27px;
     border-radius: 5px;
-    position: absolute;
-    right: 30px;
+}
+.messageDiv{
+    display: flex;
 }
 .contentImg{
     height: 150px;
@@ -187,9 +187,6 @@ html{
     @media only screen and (max-width: 1280px) {
         .third{
             width:61vw;
-        }
-        .msgBox{
-            width:88%;
         }
     }
     @media only screen and (max-width: 1180px) {
