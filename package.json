@@ -8,7 +8,7 @@
   "author": "Mona Jayaram",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "babel-preset-react": "^6.24.1",
     "bootstrap": "^3.3.7",
     "react": "^15.6.1",
